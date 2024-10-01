@@ -16,11 +16,12 @@ export default function Pagina(props: PaginaProps) {
       style={{ background: 'radial-gradient(50% 50% at 50% 50%, #2d0064 0%, #0d001c 100%)' }}
     >
       <div
-        className="flex-1 flex flex-col w-screen"
+        className="flex-1 flex flex-col w-full"
         style={{ background: 'url("/background.png")' }}
       >
         {!props.semCabecalho  && <Cabecalho />}
-        <main className={`flex-1 flex flex-col ${props.className ?? ''}`}>
+
+        <main className={`flex-1 flex flex-col m-auto my-10 ${props.className ?? ''}`}>
            {props.children }
         </main>
         {!props.semRodape && <Rodape />}

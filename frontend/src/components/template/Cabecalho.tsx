@@ -5,7 +5,7 @@ import IconeCarrinho from '@/components/IconeCarrinho';
 
 export default function Cabecalho() {
   const qtdeItens = 0;
-  // const { qtdeItens } = useCarrinho()
+  // const { qtdItens } = useCarrinho()
   
   return (
     <div
