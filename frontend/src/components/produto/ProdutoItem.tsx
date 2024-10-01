@@ -26,9 +26,9 @@ export default function ProdutoItem(props: ProdutoItemProps) {
         <Image
           src={produto.imagem}
           fill
+          sizes="100%"
           className="object-contain"
           alt="Imagem do Produto"
-          sizes="100%"
         />
       </div>
 
